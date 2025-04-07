@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to Our Web Page</h1>
+    <p>Practice of advanced HTML5 elements and form handling</p>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>Topics Covered</h2>
+    <ol type="I">
+      <li>HTML5 Images</li>
+      <li>Tables</li>
+      <li>Forms and Inputs</li>
+      <li>Validation</li>
+      <li>Multimedia Elements</li>
+    </ol>
+  </section>
+
+  <!-- External Image from Pexels -->
+  <section>
+    <h2>Inspiration Image</h2>
+    <img src="https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg" alt="People Working Together" width="600" />
+  </section>
+
+  <!-- Table with Contact Information -->
+  <section>
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="10">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Alice Johnson</td>
+          <td>123 Main St, Nairobi</td>
+          <td>+254712345678</td>
+          <td>alice@example.com</td>
+        </tr>
+        <tr>
+          <td>Belinda Adhiambo</td>
+          <td>456 River Rd, Nakuru</td>
+          <td>+254701234567</td>
+          <td>bob.k@example.com</td>
+        </tr>
+        <tr>
+          <td>Clara Atieno</td>
+          <td>789 Kenyatta Ave, Kisumu</td>
+          <td>+254733456789</td>
+          <td>clara.a@example.com</td>
+        </tr>
+        <tr>
+          <td>David Mwangi</td>
+          <td>12 Moi Rd, Mombasa</td>
+          <td>+254722334455</td>
+          <td>david.m@example.com</td>
+        </tr>
+        <tr>
+          <td>Eva Chebet</td>
+          <td>78 Uhuru Hwy, Eldoret</td>
+          <td>+254734556677</td>
+          <td>eva.c@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+      <!-- Name Field -->
+      <label for="fullname">Full Name:</label><br />
+      <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required /><br /><br />
+
+      <!-- Email Field -->
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" placeholder="Enter your email" required /><br /><br />
+
+      <!-- Password Field -->
+      <label for="password">Password:</label><br />
+      <input type="password" id="password" name="password" placeholder="Create a password" required minlength="6" /><br /><br />
+
+      <!-- Date Field -->
+      <label for="dob">Date of Birth:</label><br />
+      <input type="date" id="dob" name="dob" required /><br /><br />
+
+      <!-- Dropdown -->
+      <label for="country">Country:</label><br />
+      <select id="country" name="country" required>
+        <option value="">Select a country</option>
+        <option value="kenya">Kenya</option>
+        <option value="uganda">Uganda</option>
+        <option value="tanzania">Tanzania</option>
+      </select><br /><br />
+
+      <!-- Radio Buttons -->
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label><br /><br />
+
+      <!-- Checkboxes -->
+      <p>Hobbies:</p>
+      <input type="checkbox" id="reading" name="hobbies" value="reading" />
+      <label for="reading">Reading</label>
+      <input type="checkbox" id="traveling" name="hobbies" value="traveling" />
+      <label for="traveling">Traveling</label>
+      <input type="checkbox" id="coding" name="hobbies" value="coding" />
+      <label for="coding">Coding</label><br /><br />
+
+      <!-- Submit Button -->
+      <input type="submit" value="Register" />
+    </form>
+  </section>
+
+  <!-- Multimedia Elements -->
+  <section>
+    <h2>Multimedia</h2>
+    <h3>Listen to this:</h3>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <h3>Watch this:</h3>
+    <video width="400" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Advanced HTML5 Practice</p>
+  </footer>
+</body>
+</html>
+
